@@ -18,21 +18,22 @@
 + (TMOWebObject *)webObjectForKey:(NSString *)argKey;
 
 /**
- *  zip包的远端地址
+ *  webView path
  */
-@property (nonatomic, strong) NSString *zipURLString;
+@property (nonatomic, strong) NSString *URLString;
 
 /**
- *  html页相对于zip包的地址
- */
-@property (nonatomic, strong) NSString *webURLString;
-
-/**
- *  TMOWebView依赖的Delegate
- *  如果你需要自定义WebView的delagate，则需要创建一个TMOWebViewDelegate的子类，并将其赋予TMOWebView实例
+ *  TMOWebView Delegate's implementation
+ *  If you wondering implement delegate by yourself, you should subclass TMOWebViewDelegateImplement.
  */
 @property (nonatomic, strong) TMOWebViewDelegateImplement *delegateImplement;
 
-- (void)callback:(NSString *)argIdentifier withParams:(NSDictionary *)argParams;
+/**
+ *  make a callback to WebView
+ *
+ *  @param argIdentifier callbackIdentifier
+ *  @param argParams     callbackParams, should be an Array or Dictionary
+ */
+- (void)callback:(NSString *)argIdentifier withParams:(id)argParams;
 
 @end

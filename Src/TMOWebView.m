@@ -65,15 +65,9 @@ static NSMutableDictionary *webObjectDictionary;
     self.delegate = self.delegateImplement;
 }
 
-- (void)setZipURLString:(NSString *)zipURLString {
-    
-}
-
-- (void)setWebURLString:(NSString *)webURLString {
-    _webURLString = webURLString;
-    if (self.zipURLString == nil) {
-        [self loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:webURLString]]];
-    }
+- (void)setURLString:(NSString *)URLString {
+    _URLString = URLString;
+    [self loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:URLString]]];
 }
 
 - (void)callback:(NSString *)argIdentifier withParams:(NSDictionary *)argParams {

@@ -25,7 +25,7 @@
                                                   TMOWebView *webView) {
         [webView callback:callbackIdentifier withParams:@{@"test": @"我真的是来测试的"}];
     }];
-    [self.webView setWebURLString:@"http://www.baidu.com/"];
+    [self.webView setURLString:@"http://www.baidu.com/"];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

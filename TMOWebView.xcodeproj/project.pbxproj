@@ -24,7 +24,6 @@
 		630ED5CB19B404BC00399467 /* TMOWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630ED5CA19B404BC00399467 /* TMOWebViewTests.m */; };
 		63622D4619B40A640055FB6F /* TMOWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63622D4519B40A640055FB6F /* TMOWebView.m */; };
 		63622D4B19B40DEE0055FB6F /* TMOWebObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63622D4A19B40DEE0055FB6F /* TMOWebObject.m */; };
-		63622D5119B40E0D0055FB6F /* TMOWebCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 63622D5019B40E0D0055FB6F /* TMOWebCall.m */; };
 		63622D5719B411750055FB6F /* TMOWebViewDelegateImplement.m in Sources */ = {isa = PBXBuildFile; fileRef = 63622D5619B411750055FB6F /* TMOWebViewDelegateImplement.m */; };
 		63622D5819B422840055FB6F /* TMOWebView.js in Resources */ = {isa = PBXBuildFile; fileRef = 63622D4719B40B560055FB6F /* TMOWebView.js */; };
 /* End PBXBuildFile section */
@@ -64,8 +63,6 @@
 		63622D4719B40B560055FB6F /* TMOWebView.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TMOWebView.js; sourceTree = "<group>"; };
 		63622D4919B40DEE0055FB6F /* TMOWebObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOWebObject.h; sourceTree = "<group>"; };
 		63622D4A19B40DEE0055FB6F /* TMOWebObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMOWebObject.m; sourceTree = "<group>"; };
-		63622D4F19B40E0D0055FB6F /* TMOWebCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOWebCall.h; sourceTree = "<group>"; };
-		63622D5019B40E0D0055FB6F /* TMOWebCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMOWebCall.m; sourceTree = "<group>"; };
 		63622D5519B411750055FB6F /* TMOWebViewDelegateImplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOWebViewDelegateImplement.h; sourceTree = "<group>"; };
 		63622D5619B411750055FB6F /* TMOWebViewDelegateImplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMOWebViewDelegateImplement.m; sourceTree = "<group>"; };
 		90B1E08717614972AE3E9CD2 /* libPods-TMOWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMOWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,8 +178,6 @@
 				63622D4719B40B560055FB6F /* TMOWebView.js */,
 				63622D4919B40DEE0055FB6F /* TMOWebObject.h */,
 				63622D4A19B40DEE0055FB6F /* TMOWebObject.m */,
-				63622D4F19B40E0D0055FB6F /* TMOWebCall.h */,
-				63622D5019B40E0D0055FB6F /* TMOWebCall.m */,
 				63622D5519B411750055FB6F /* TMOWebViewDelegateImplement.h */,
 				63622D5619B411750055FB6F /* TMOWebViewDelegateImplement.m */,
 			);
@@ -327,7 +322,6 @@
 				630ED5B619B404BC00399467 /* DemoViewController.m in Sources */,
 				630ED5AC19B404BC00399467 /* main.m in Sources */,
 				63622D4B19B40DEE0055FB6F /* TMOWebObject.m in Sources */,
-				63622D5119B40E0D0055FB6F /* TMOWebCall.m in Sources */,
 				630ED5B019B404BC00399467 /* DemoAppDelegate.m in Sources */,
 				63622D5719B411750055FB6F /* TMOWebViewDelegateImplement.m in Sources */,
 			);
