@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F88B7F9A7A8487DACCEFB28 /* libPods-TMOWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B1E08717614972AE3E9CD2 /* libPods-TMOWebView.a */; };
 		630ED5A019B404BC00399467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630ED59F19B404BC00399467 /* Foundation.framework */; };
 		630ED5A219B404BC00399467 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630ED5A119B404BC00399467 /* CoreGraphics.framework */; };
 		630ED5A419B404BC00399467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630ED5A319B404BC00399467 /* UIKit.framework */; };
@@ -21,6 +22,11 @@
 		630ED5C119B404BC00399467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630ED5A319B404BC00399467 /* UIKit.framework */; };
 		630ED5C919B404BC00399467 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 630ED5C719B404BC00399467 /* InfoPlist.strings */; };
 		630ED5CB19B404BC00399467 /* TMOWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 630ED5CA19B404BC00399467 /* TMOWebViewTests.m */; };
+		63622D4619B40A640055FB6F /* TMOWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63622D4519B40A640055FB6F /* TMOWebView.m */; };
+		63622D4B19B40DEE0055FB6F /* TMOWebObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63622D4A19B40DEE0055FB6F /* TMOWebObject.m */; };
+		63622D5119B40E0D0055FB6F /* TMOWebCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 63622D5019B40E0D0055FB6F /* TMOWebCall.m */; };
+		63622D5719B411750055FB6F /* TMOWebViewDelegateImplement.m in Sources */ = {isa = PBXBuildFile; fileRef = 63622D5619B411750055FB6F /* TMOWebViewDelegateImplement.m */; };
+		63622D5819B422840055FB6F /* TMOWebView.js in Resources */ = {isa = PBXBuildFile; fileRef = 63622D4719B40B560055FB6F /* TMOWebView.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,17 @@
 		630ED5C619B404BC00399467 /* TMOWebViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TMOWebViewTests-Info.plist"; sourceTree = "<group>"; };
 		630ED5C819B404BC00399467 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		630ED5CA19B404BC00399467 /* TMOWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMOWebViewTests.m; sourceTree = "<group>"; };
+		63622D4419B40A640055FB6F /* TMOWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOWebView.h; sourceTree = "<group>"; };
+		63622D4519B40A640055FB6F /* TMOWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMOWebView.m; sourceTree = "<group>"; };
+		63622D4719B40B560055FB6F /* TMOWebView.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TMOWebView.js; sourceTree = "<group>"; };
+		63622D4919B40DEE0055FB6F /* TMOWebObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOWebObject.h; sourceTree = "<group>"; };
+		63622D4A19B40DEE0055FB6F /* TMOWebObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMOWebObject.m; sourceTree = "<group>"; };
+		63622D4F19B40E0D0055FB6F /* TMOWebCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOWebCall.h; sourceTree = "<group>"; };
+		63622D5019B40E0D0055FB6F /* TMOWebCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMOWebCall.m; sourceTree = "<group>"; };
+		63622D5519B411750055FB6F /* TMOWebViewDelegateImplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMOWebViewDelegateImplement.h; sourceTree = "<group>"; };
+		63622D5619B411750055FB6F /* TMOWebViewDelegateImplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMOWebViewDelegateImplement.m; sourceTree = "<group>"; };
+		90B1E08717614972AE3E9CD2 /* libPods-TMOWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMOWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD327FC1F81A4E7A9419C4F7 /* Pods-TMOWebView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMOWebView.xcconfig"; path = "Pods/Pods-TMOWebView.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +80,7 @@
 				630ED5A219B404BC00399467 /* CoreGraphics.framework in Frameworks */,
 				630ED5A419B404BC00399467 /* UIKit.framework in Frameworks */,
 				630ED5A019B404BC00399467 /* Foundation.framework in Frameworks */,
+				0F88B7F9A7A8487DACCEFB28 /* libPods-TMOWebView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,10 +100,12 @@
 		630ED59319B404BC00399467 = {
 			isa = PBXGroup;
 			children = (
+				630ED5D419B406FC00399467 /* Src */,
 				630ED5A519B404BC00399467 /* TMOWebView */,
 				630ED5C419B404BC00399467 /* TMOWebViewTests */,
 				630ED59E19B404BC00399467 /* Frameworks */,
 				630ED59D19B404BC00399467 /* Products */,
+				DD327FC1F81A4E7A9419C4F7 /* Pods-TMOWebView.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +125,7 @@
 				630ED5A119B404BC00399467 /* CoreGraphics.framework */,
 				630ED5A319B404BC00399467 /* UIKit.framework */,
 				630ED5BE19B404BC00399467 /* XCTest.framework */,
+				90B1E08717614972AE3E9CD2 /* libPods-TMOWebView.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,6 +173,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		630ED5D419B406FC00399467 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				63622D4419B40A640055FB6F /* TMOWebView.h */,
+				63622D4519B40A640055FB6F /* TMOWebView.m */,
+				63622D4719B40B560055FB6F /* TMOWebView.js */,
+				63622D4919B40DEE0055FB6F /* TMOWebObject.h */,
+				63622D4A19B40DEE0055FB6F /* TMOWebObject.m */,
+				63622D4F19B40E0D0055FB6F /* TMOWebCall.h */,
+				63622D5019B40E0D0055FB6F /* TMOWebCall.m */,
+				63622D5519B411750055FB6F /* TMOWebViewDelegateImplement.h */,
+				63622D5619B411750055FB6F /* TMOWebViewDelegateImplement.m */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 630ED5CE19B404BC00399467 /* Build configuration list for PBXNativeTarget "TMOWebView" */;
 			buildPhases = (
+				E905A5D423224474A6BD9E09 /* Check Pods Manifest.lock */,
 				630ED59819B404BC00399467 /* Sources */,
 				630ED59919B404BC00399467 /* Frameworks */,
 				630ED59A19B404BC00399467 /* Resources */,
+				0136665385EF4E86BA1F490A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63622D5819B422840055FB6F /* TMOWebView.js in Resources */,
 				630ED5B819B404BC00399467 /* Images.xcassets in Resources */,
 				630ED5AA19B404BC00399467 /* InfoPlist.strings in Resources */,
 				630ED5B319B404BC00399467 /* Main.storyboard in Resources */,
@@ -245,14 +285,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0136665385EF4E86BA1F490A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-TMOWebView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E905A5D423224474A6BD9E09 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		630ED59819B404BC00399467 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63622D4619B40A640055FB6F /* TMOWebView.m in Sources */,
 				630ED5B619B404BC00399467 /* DemoViewController.m in Sources */,
 				630ED5AC19B404BC00399467 /* main.m in Sources */,
+				63622D4B19B40DEE0055FB6F /* TMOWebObject.m in Sources */,
+				63622D5119B40E0D0055FB6F /* TMOWebCall.m in Sources */,
 				630ED5B019B404BC00399467 /* DemoAppDelegate.m in Sources */,
+				63622D5719B411750055FB6F /* TMOWebViewDelegateImplement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,12 +451,14 @@
 		};
 		630ED5CF19B404BC00399467 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD327FC1F81A4E7A9419C4F7 /* Pods-TMOWebView.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TMOWebView/TMOWebView-Prefix.pch";
 				INFOPLIST_FILE = "TMOWebView/TMOWebView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -387,12 +466,14 @@
 		};
 		630ED5D019B404BC00399467 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD327FC1F81A4E7A9419C4F7 /* Pods-TMOWebView.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TMOWebView/TMOWebView-Prefix.pch";
 				INFOPLIST_FILE = "TMOWebView/TMOWebView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +538,7 @@
 				630ED5D019B404BC00399467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		630ED5D119B404BC00399467 /* Build configuration list for PBXNativeTarget "TMOWebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +547,7 @@
 				630ED5D319B404BC00399467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
