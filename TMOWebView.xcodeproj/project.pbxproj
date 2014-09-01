@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F88B7F9A7A8487DACCEFB28 /* libPods-TMOWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B1E08717614972AE3E9CD2 /* libPods-TMOWebView.a */; };
 		630ED5A019B404BC00399467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630ED59F19B404BC00399467 /* Foundation.framework */; };
 		630ED5A219B404BC00399467 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630ED5A119B404BC00399467 /* CoreGraphics.framework */; };
 		630ED5A419B404BC00399467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630ED5A319B404BC00399467 /* UIKit.framework */; };
@@ -77,7 +76,6 @@
 				630ED5A219B404BC00399467 /* CoreGraphics.framework in Frameworks */,
 				630ED5A419B404BC00399467 /* UIKit.framework in Frameworks */,
 				630ED5A019B404BC00399467 /* Foundation.framework in Frameworks */,
-				0F88B7F9A7A8487DACCEFB28 /* libPods-TMOWebView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,11 +189,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 630ED5CE19B404BC00399467 /* Build configuration list for PBXNativeTarget "TMOWebView" */;
 			buildPhases = (
-				E905A5D423224474A6BD9E09 /* Check Pods Manifest.lock */,
 				630ED59819B404BC00399467 /* Sources */,
 				630ED59919B404BC00399467 /* Frameworks */,
 				630ED59A19B404BC00399467 /* Resources */,
-				0136665385EF4E86BA1F490A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,39 +275,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0136665385EF4E86BA1F490A /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-TMOWebView-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E905A5D423224474A6BD9E09 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		630ED59819B404BC00399467 /* Sources */ = {
